@@ -1,0 +1,115 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+ background-color: black;
+ color: aliceblue;  
+}
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 10vw;
+    padding:0 5vh ;
+}
+
+nav ul {
+    height:10vh ; 
+    display: flex;
+    justify-content:flex-start ;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding:0 5vh ;
+}
+
+nav ul li a{
+    color: aliceblue;
+    font-weight: vo;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+
+}
+nav ul li a:hover{
+    color: aqua;
+   font-weight:bold;
+
+}
+.search{
+    display: flex;
+    align-items: center;
+    
+}
+.search input{
+    width: 400px;
+    height: 20px;
+    border-radius: 2px;
+    margin: 0 10px 0 30px;
+    padding-left: 10px;
+
+}
+.search button{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+
+
+}
+
+.slider{
+    margin: auto;
+    width: 93vw;
+    margin: 12px auto;
+    overflow: hidden;
+   
+}
+
+.card{
+    max-width: 90vw;
+    margin: 37px auto;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.cards{
+    display: flex;
+   justify-content: center;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin:0 15px;
+   
+
+}
+
+.card h2{
+    font-family: 'Open Sans', sans-serif;
+ 
+}
+
+.container{
+    min-height: calc(100vh - 12vh - 10vh);
+}
+
+footer{
+    height: 12vh;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+
+}
+

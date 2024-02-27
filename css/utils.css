@@ -1,0 +1,21 @@
+.flexall-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 5px 10px;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: black;
+    border: 2px solid whitesmoke;
+}
+
+.my-2{
+    margin: 18px 0;
+}
+
+.text-center{
+    text-align: center ;
+
+}
